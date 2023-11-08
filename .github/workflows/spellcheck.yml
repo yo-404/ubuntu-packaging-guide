@@ -17,7 +17,7 @@ jobs:
           # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
           reporter: github-check
           # Change reporter level as per requirement.
-          level: info
+          level: warning
           language: en-GB
           disabled_categories: 'TYPOS,TYPOGRAPHY,CASING'
           disabled_rules: 'WHITESPACE_RULE,DASH_RULE,WORD_CONTAINS_UNDERSCORE,UPPERCASE_SENTENCE_START,ARROWS,COMMA_PARENTHESIS_WHITESPACE,UNLIKELY_OPENING_PUNCTUATION,CURRENCY,EN_UNPAIRED_BRACKETS,METRIC_UNITS_EN_US,ENGLISH_WORD_REPEAT_BEGINNING_RULE,ENGLISH_WORD_REPEAT_RULE,DOUBLE_PUNCTUATION,EVERY_EACH_SINGULAR,PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT,STATE_OF_THE_ART,HYPHEN_TO_EN,MISSING_HYPHEN,OUT_OF_POCKET_HYPHEN,COMMA_COMPOUND_SENTENCE,COM_COME,YOUR,EN_COMPOUNDS'
@@ -35,7 +35,7 @@ jobs:
           locale: "UK"
           reporter: github-check
           # level can be set to [info,warning,error]
-          level: info
+          level: warning
           pattern: "**.rst"
           exclude: |
             ./.git/*
